@@ -35,6 +35,10 @@ User.init(
         len: [8],
       },
     },
+    status: {
+      type: DataTypes.ENUM,
+      values: ['active', 'inactive'],
+    }
   },
   {
     hooks: {
